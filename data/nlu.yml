@@ -1,0 +1,299 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: corona_intro
+  examples: |
+    - what is corona?
+    - what is covid-19?
+    - what is novel corona virus?
+    - tell me about corona
+    - can you tell me about corona
+    - can you tell me about covid-19
+
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread?
+    - how does this virus spread
+
+- intent: corona_food_spread
+  examples: |
+    - how does food spread corona virus?
+    - does consuming junk food spread corona virus?
+    - how will corona spread from food?
+
+- intent: corona_spread_warm
+  examples: |
+    - how will warm weather stop corona virus?
+    - Can warm weather actually stop corona?
+    - will it stop with warm weather?
+
+
+- intent: corona_spread_risk
+  examples: |
+    - who is at higher risk of infection
+    - who is more prone to get corona virus infection
+
+- intent: corona_community
+  examples: |
+    - what is community spread?
+    - how does community spread occurs?
+    - community spread
+
+- intent: corona_symptoms
+  examples: |
+    - What are the symptoms of novel coronavirus?
+    - What are the symptoms of novel corona virus?
+    - What are the symptoms of novel covid-19 virus?
+    - What are the symptoms of corona virus?
+    - symptoms of corona virus?
+    - symptoms of covid19 virus?
+
+
+- intent: corona_mosq_spread
+  examples: |
+    - can mosquitoes spread corona virus?
+    - how does mosquitoes spread corona virus?
+    - mosquitoes spread covid-19 virus.
+    - mosquitoes spread covid virus.
+
+- intent: corona_vaccine
+  examples: |
+    - Are there any vaccines available for prevention of corona virus?
+    - Are there any vaccines available for prevention of covid19 virus?
+    - what about vaccines available for prevention of corona virus?
+    - vaccines available for prevention of corona virus?
+    - Have the vaccines been developed for corona virus?
+    - is there any vaccine for corona virus?
+    - is there any vaccine for covid19 virus?
+  
+
+- intent: corona_prevent
+  examples: |
+    - how can i prevent covid19?
+    - how can i prevent corona virus?
+    - how can i prevent covid-19?
+    - prevent covid19?
+    - prevent corona
+    - how once can prevent himself/herself from getting infected from covid19?
+    - how once can prevent himself/herself from getting infected from corona?
+
+- intent: corona_infected person
+  examples: |
+    - If You or Someone You Know is Sick or Had Contact with Someone who Has COVID-19
+    - If You or Someone You Know is Sick or Had Contact with Someone who Has corona?
+    - what should i do if someone in my house gets infected by corona?
+    - what should i do if someone in my house gets infected by covid-19?
+    - someone gets covid-19 i know?
+    - my family member gets infected by corona?
+    - someone gets infected by corona i know?
+    - someone gets infected by corona i was in contact with?
+    - someone gets infected by covid i was in contact with?
+    - what to do if someone gets infected by covid i was in contact with?
+
+- intent: corona_stats_check
+  examples: |
+    - Corona stats
+    - i want to check corona statistics
+    - corona tracker
+    - corona stats
+    - covid tracker
+    - covid stats
+
+- intent: corona_states_stat
+  examples: |
+    - [India](state)
+    - I live in [India](state:India)
+    - [Gujarat](state)
+    - I live in [Gujarat](state:Gujarat)
+    - [Andhra Pradesh](state)
+    - I live in [Andhra Pradesh](state:Andhra Pradesh)
+    - [Arunachal Pradesh](state)
+    - I live in [Arunachal Pradesh](state:Arunachal Pradesh)
+    - [Assam](state)
+    - I live in [Assam](state:Assam)
+    - [Bihar](state)
+    - I live in [Bihar](state:Bihar)
+    - [Goa](state)
+    - I live in [Goa](state:Goa)
+    - [Chhattisgarh](state)
+    - I live in [Chhattisgarh](state:Chhattisgarh)
+    - [Haryana](state)
+    - I live in [Haryana](state:Haryana)
+    - [Himachal Pradesh](state)
+    - I live in [Himachal Pradesh](state:Himachal Pradesh)
+    - [Jharkhand](state)
+    - I live in [Jharkhand](state:Jharkhand)
+    - [Karnataka](state)
+    - I live in [Karnataka](state:Karnataka)
+    - [Madhya Pradesh](state)
+    - I live in [Madhya Pradesh](state:Madhya Pradesh)
+    - [Kerala](state)
+    - I live in [Kerala](state:Kerala)
+    - [Maharashtra](state)
+    - I live in [Maharashtra](state:Maharashtra)
+    - [Manipur](state)
+    - I live in [Manipur](state:Manipur)
+    - [Meghalaya](state)
+    - I live in [Meghalaya](state:Meghalaya)
+    - [Mizoram](state)
+    - I live in [Mizoram](state:Mizoram)
+    - [Nagaland](state)
+    - I live in [Nagaland](state:Nagaland)
+    - [Odisha](state)
+    - I live in [Odisha](state:Odisha)
+    - [Punjab](state)
+    - I live in [Punjab](state:Punjab)
+    - [Rajasthan](state)
+    - I live in [Rajasthan](state:Rajasthan)
+    - [Sikkim](state)
+    - I live in [Sikkim](state:Sikkim)
+    - [Tamil Nadu](state)
+    - I live in [Tamil Nadu](state:Tamil Nadu)
+    - [Telangana](state)
+    - I live in [Telangana](state:Telangana)
+    - [Tripura](state)
+    - I live in [Tripura](state:Tripura)
+    - [Uttar Pradesh](state)
+    - I live in [Uttar Pradesh](state:Uttar Pradesh)
+    - [Uttarakhand](state)
+    - I live in [Uttarakhand](state:Uttarakhand)
+    - [West Bengal](state)
+    - I live in [West Bengal](state:West Bengal)
+
+- intent: name_entry
+  examples: |
+    - My name is [Ashish](name)
+    - [ashish](name:Ashish) this side
+    - It's [ashish](name:Ashish)
+    - [ashish](name:Ashish) is my name
+    - [Ashish](name)
+    - [Rahul](name)
+    - [ashish](name:Ashish)
+    - My name is [Harsh](name)
+    - [harsh](name:Harsh) this side
+    - It's [harsh](name:Harsh)
+    - [harsh](name:Harsh) is my name
+    - [Harsh](name)
+    - [Rahul](name)
+    - [harsh](name:Harsh)
+    - It is [Tom](name)
+    - My name is [Bob](name)
+    - my name is [Harsh](name)
+    - name is [Rajesh](name)
+    - my name is [demo](name)
+    - name is [demo](name)
+    - I am [Harsh](name)
+    - I am [Nandan](name)
+    - I am [demo](name)
+    - myself [Harsh](name)
+    - myself [demo](name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
