@@ -23,6 +23,7 @@ intents:
   - corona_symptoms
   - corona_vaccine
   - corona_infected person
+  - Thanks
 
 
 actions:
@@ -63,7 +64,7 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "GoodBye! Hope To See You Soon :))"
+  - text: "GoodBye! Hope To See You Soon !\nJust Type 'hey' or 'hi' anytime to redirect to the Intro Section of The Bot :))"
 
   utter_iamabot:
   - text: "I am a COVID-19 Stats bot, Developed By Harsh Sharma.\nCheck Out My Github Profile For More Amazing Projects: 'https://github.com/harshgeek4coder' \nCheck Out My Website: 'http://theharshsharma.tech/'\n"
@@ -127,6 +128,10 @@ responses:
  
   utter_corona_infected person:
   - text: "Stay home for 14 days after your last contact with a person who has COVID-19.\nBe alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.\nIf possible, stay away from others, especially people who are at higher risk for getting very sick from COVID-19."
+
+  utter_Thanks:
+  - text: "Your Welcome . Glad I could be of some help!\nJust type 'hey' or 'hi' again to redirect to the main phase of bot ! :))"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

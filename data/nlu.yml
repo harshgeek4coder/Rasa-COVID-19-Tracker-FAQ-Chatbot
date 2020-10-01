@@ -89,6 +89,12 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - who are you?
+    - who are you
+    - what are you
+    - tell me about yourself?
+    - tell me about yourself
+    - what are you?
 
 - intent: corona_intro
   examples: |
@@ -102,7 +108,11 @@ nlu:
 - intent: corona_spread
   examples: |
     - how does corona virus spread?
-    - how does this virus spread
+    - how does this virus spread?
+    - how does corona spread?
+    - corona spread?
+    - covid spread.
+    - covid19 spread.
 
 - intent: corona_food_spread
   examples: |
@@ -248,6 +258,8 @@ nlu:
     - I live in [Uttarakhand](state:Uttarakhand)
     - [West Bengal](state)
     - I live in [West Bengal](state:West Bengal)
+    - [Delhi](state)
+    - I live in [Delhi](state:Delhi)
 
 - intent: name_entry
   examples: |
@@ -278,7 +290,13 @@ nlu:
     - myself [demo](name)
 
 
-
+- intent: Thanks
+  examples: |
+    - Thanks
+    - Thank You
+    - thanks
+    - thanks a lot 
+    - thank you so much
 
 
 

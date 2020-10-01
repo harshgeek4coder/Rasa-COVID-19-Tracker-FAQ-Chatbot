@@ -103,3 +103,13 @@ stories:
   - action: utter_corona_infected person
 
 
+
+- story: thanks path
+  steps:
+  - intent: Thanks
+  - action: utter_Thanks
+
+- story: who am i
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
